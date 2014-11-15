@@ -1,0 +1,90 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.meindique.CadastroLoginActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvCadastroLOginEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-mail *" />
+
+        <EditText
+            android:id="@+id/etaEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/tvCadastroLoginSenha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Senha *" />
+
+        <EditText
+            android:id="@+id/etCadastroLoginSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/tvCadastroLoginNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome" />
+
+        <EditText
+            android:id="@+id/etCadastroLoginNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/tvCadastroLoginTelefone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telefone" />
+
+        <EditText
+            android:id="@+id/etCadastraLoginTelefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btCadastoLoginGravar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="gravar"
+            android:text="gravar" />
+
+        <Button
+            android:id="@+id/btVoltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="voltar" 
+            android:onClick="voltar"
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

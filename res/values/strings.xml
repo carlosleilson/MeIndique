@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Me Indique</string>
+    <string name="hello_world">Por favor, me indique</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_indicar">Indicar</string>
+    <string name="app_id">732356403451959</string>
+    <string name="title_activity_cadastro_login">Cadastro de Login</string>
+    <string name="error_invalido_email_cadastro_login">E-mail invalido</string>
+    <string name="error_invalido_senha_cadastro_login">Senha invalido</string>
+    <string name="title_activity_detalhe_indicacao">Detalhe da Indicacao</string>
+    <string name="title_activity_menulojas">Menu de Lojas</string>
+    <string name="title_activity_menu_indicacao">Menu de Indicações</string>
+    <string name="title_activity_cadastrar_loja">Cadatro de Loja</string>
+
+</resources>

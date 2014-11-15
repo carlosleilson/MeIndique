@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.meindique.PrincipalActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btIndique"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/abc_action_bar_icon_vertical_padding"
+                android:text="Indique" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tvCadastroLOginEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estado / Cidade.: " />
+
+            <TextView
+                android:id="@+id/tvEstaCidade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Assunto.: " />
+
+            <TextView
+                android:id="@+id/tvAssunto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mensagem.; " />
+
+            <TextView
+                android:id="@+id/tvMensagem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

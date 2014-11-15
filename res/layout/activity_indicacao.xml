@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.meindique.IndicacaoActivity"
+    tools:ignore="MergeRootFrame" >
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvCadastroLOginEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estado / Cidadeee" />
+
+        <EditText
+            android:id="@+id/etEstadoCidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Assunto" />
+
+        <EditText
+            android:id="@+id/etAssunto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mensagem" />
+
+        <EditText
+            android:id="@+id/etMensagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+        
+         <RatingBar
+            android:id="@+id/rbIndicar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btEnviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="enviar" 
+            android:onClick="gravar"
+            />
+
+    </LinearLayout>
+ </ScrollView>
+</FrameLayout>
+    

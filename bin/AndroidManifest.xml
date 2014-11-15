@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.meindique"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:logo="@drawable/ic_launcher"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="br.com.meindique.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.facebook.sdk.ApplicationId"
+                android:value="app_id" />
+        </activity>
+        <activity
+            android:name="br.com.meindique.IndicacaoActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="br.com.meindique.CadastroLoginActivity"
+            android:label="@string/title_activity_cadastro_login" >
+        </activity>
+        <activity android:name="br.com.meindique.ListaIndicacao" >
+        </activity>
+        <activity
+            android:name="br.com.meindique.DetalheIndicacaoActivity"
+            android:label="@string/title_activity_detalhe_indicacao" >
+        </activity>
+        <activity
+            android:name="br.com.meindique.MenulojasActivity"
+            android:label="@string/title_activity_menulojas" >
+            <!-- <meta-data -->
+            <!-- android:name="android.support.PARENT_ACTIVITY" -->
+            <!-- android:value="br.com.meindique.LoginActivity" /> -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>             
+        </activity>
+        <activity
+            android:name="br.com.meindique.MenuIndicacaoActivity"
+            android:label="@string/title_activity_menu_indicacao" >
+        </activity>
+        <activity
+            android:name="br.com.meindique.CadastrarLojaActivity"
+            android:label="@string/title_activity_cadastrar_loja" >
+        </activity>
+    </application>
+
+</manifest>

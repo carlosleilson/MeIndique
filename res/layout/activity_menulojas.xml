@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.meindique.MenulojasActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btTeIndiram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/abc_action_bar_subtitle_bottom_margin"
+                android:onClick="indicar"
+                android:text="Indique" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listaLojas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+
+    </LinearLayout>
+
+</FrameLayout>
+    
